@@ -11,10 +11,17 @@
     <meta name="description" content=".." />
     <!-- description of the page that appears in search engine results -->
     <title>Document</title>
+     <!-- cover makes sure the image covers the entire area without distortion -->
     <style>
       em {
         color: red;
         font-style: normal;
+      }
+    
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
       }
     </style>
   </head>
@@ -26,9 +33,39 @@
     <h3>Exercise</h3>
     <h2>CSS</h2>
     <p>CSS tutorial</p>
-    <p>I love to teach you <em>HTML</em>!</p>
+    <p>I love to teach you &lt;HTML&gt;! &copy;</p>
+    <!-- we use & symbols for entities in HTML-->
+    <!-- &copy; copyright symbol-->
+    <!-- &lt; means less than while &gt; means greater than -->
     <!-- em elements is used for emaphasizing content-->
     <!-- i for italic and b for bold are considered as deprecated cannot be used in HTML because its for structuring content and not for styling -->
     <!-- strong element is used for bold -->
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis
+      beatae odit libero&nbsparchitecto, velit magnam dolorum temporibus amet
+      nam illum veritatis? Ipsum perferendis ducimus voluptatum veniam sapiente
+      error, expedita ad!
+    </p>
+    <a href="company/about.html">About me</a>
+    <!-- href is hypertext reference/URL/link and every anchor(<a>) element should have a href attribute-->
+    <a href="images/user-profile-icon.jpg" download>My Photo</a> <!-- download element prompts the user to download the image-->
+    <a href="#section-css">CSS</a> <!-- #section-css is a unique identifier to help it provide a link int ythe above <a href="".. -->
+    <a href="https://google.com" target="_blank">Google</a> <!-- going to a different website-->
+    <!-- _blank for a new tab-->
+    <a href="mailto:programmingwithphil@gmail.com">Email Me</a> <!-- linkling to email -->
+    <h2>HTML</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt nemo consequatur harum quasi! Magnam quos, amet nesciunt eos culpa accusamus, ratione a sequi maxime inventore consectetur deserunt quidem id laboriosam ad quod, suscipit praesentium voluptates unde debitis cum iure fugiat doloremque. Harum inventore quia unde dolor magni soluta quisquam! Deleniti, rem. Deleniti consequuntur unde minima vero voluptatibus repellendus est aspernatur blanditiis, impedit nobis dolorum. Provident, non facilis. Beatae ab dolorum esse laudantium enim rem maxime rerum alias eius error aperiam dolore quibusdam omnis consequatur nam nostrum iure odio saepe corrupti laboriosam porro eum sequi, aliquam ullam. Totam in impedit, soluta natus, sunt labore laborum rem accusamus, magni ea saepe placeat nobis. Possimus, aspernatur veniam dicta optio quae est, voluptatibus odio veritatis quaerat sed tempore iusto ea modi neque, repellat quam consequatur delectus obcaecati id quas. Laborum praesentium repellendus eveniet autem. Reiciendis quod cumque quidem, aspernatur, quo laborum tempora nostrum commodi adipisci obcaecati inventore ducimus vitae odit quia explicabo magnam dolorem sapiente est aut vel. Consequuntur corrupti explicabo atque ut debitis? Consequuntur est, illo dignissimos fugit similique magni veritatis dolore minus velit, aspernatur aperiam nostrum quibusdam, ex laudantium soluta perferendis corrupti voluptatum nemo porro? Sed facilis quam eos nobis quo modi?</p>
+    <h2 id="section-css">CSS</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus perspiciatis officia, facere libero nisi dolorem excepturi quaerat aut voluptatibus, 
+      quidem illum ipsum expedita magnam voluptate, obcaecati veritatis nulla repellat! Placeat nisi consequuntur soluta blanditiis reiciendis? 
+      Magni nam ut accusamus iste eum dolore asperiores dicta voluptas sit laborum, ducimus corporis earum enim vel nisi quos nostrum doloribus quod perferendis.
+       Quasi aliquid minima sint similique culpa consequuntur eos temporibus. Ad tempora dolorum quisquam repudiandae dolores, laborum eligendi dolor sapiente. 
+       Qui eius numquam rerum facere rem? Provident, perferendis? Alias dolores natus eos aperiam non hic earum quod omnis velit nobis porro exercitationem cupiditate expedita nesciunt provident, voluptatibus voluptatem excepturi tenetur quisquam error. 
+       Sunt dolores saepe totam labore perferendis autem consectetur quia, blanditiis qui veritatis exercitationem omnis corrupti, quod dicta illum sequi dolore itaque consequatur.
+       Eius voluptas unde voluptate, amet blanditiis ipsam illum minima rerum, minus, voluptatum quasi iusto non. Nam maxime tenetur magnam rem magni eius doloribus eum! Accusamus voluptatem pariatur quod aliquid iusto a impedit fugit soluta aliquam, similique reprehenderit vel, officiis recusandae id velit aspernatur dolore eos iste adipisci repellendus ut saepe. 
+       Veritatis dolorem temporibus officiis vero possimus! Odio, accusamus. Deleniti nobis temporibus nostrum iste nesciunt, quo doloremque. Error, quas.</p>
+    </p>
+    <a href="#">Jump to Top</a> <!-- # is an empty fragment -->
+    <img src="images/coffee.jpg" alt="A coffee mug on a table">
   </body>
 </html>
